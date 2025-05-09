@@ -6,19 +6,19 @@ using UnityEngine;
 
 public class AudioPlayer : MonoBehaviour
 {
-    public static AudioPlayer instance { get; private set; }
+    public static AudioPlayer APInstance { get; private set; }
     [HideInInspector] public AudioController audioController;
 
     public SerializedDictionary<AudioEnum, List<AudioClip>> audioClips = new();
 
     private void Awake()
     {
-        if (instance != null)
+        if (APInstance != null)
         {
             return;
         }
 
-        instance = this;
+        APInstance = this;
         audioController = GetComponent<AudioController>();
     }
 

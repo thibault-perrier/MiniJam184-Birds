@@ -949,6 +949,34 @@ PrefabInstance:
       propertyPath: <audioMixerMusic>k__BackingField
       value: 
       objectReference: {fileID: 7610881600614850871, guid: 8d35a8d70a6a00b4f973aa2bffcd8db7, type: 2}
+    - target: {fileID: 9070558108991319507, guid: c1b4ff632c381ea479afcf566c1a4c55, type: 3}
+      propertyPath: audioClips._serializedList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070558108991319507, guid: c1b4ff632c381ea479afcf566c1a4c55, type: 3}
+      propertyPath: audioClips._serializedList.Array.data[1].Key
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070558108991319507, guid: c1b4ff632c381ea479afcf566c1a4c55, type: 3}
+      propertyPath: audioClips._serializedList.Array.data[2].Key
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070558108991319507, guid: c1b4ff632c381ea479afcf566c1a4c55, type: 3}
+      propertyPath: audioClips._serializedList.Array.data[3].Key
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070558108991319507, guid: c1b4ff632c381ea479afcf566c1a4c55, type: 3}
+      propertyPath: audioClips._serializedList.Array.data[0].Value.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070558108991319507, guid: c1b4ff632c381ea479afcf566c1a4c55, type: 3}
+      propertyPath: audioClips._serializedList.Array.data[1].Value.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070558108991319507, guid: c1b4ff632c381ea479afcf566c1a4c55, type: 3}
+      propertyPath: audioClips._serializedList.Array.data[2].Value.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

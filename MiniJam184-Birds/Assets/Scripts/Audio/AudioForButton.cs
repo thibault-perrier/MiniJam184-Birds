@@ -10,12 +10,12 @@ public class AudioForButton : MonoBehaviour
     void Start()
     {
         GetComponentInParent<Button>()?.onClick.AddListener(OnClick);
-        GetComponentInParent<TMP_Dropdown>()?.onValueChanged.AddListener((_)=>OnClick());
-        GetComponentInParent<Toggle>()?.onValueChanged?.AddListener((_)=>OnClick());
+        GetComponentInParent<TMP_Dropdown>()?.onValueChanged.AddListener((_) => OnClick());
+        GetComponentInParent<Toggle>()?.onValueChanged?.AddListener((_) => OnClick());
     }
 
     private void OnClick()
     {
-        AudioPlayer.instance.PlaySfx(m_AudioEnum);
+        AudioPlayer.APInstance.PlaySfx(m_AudioEnum);
     }
 }

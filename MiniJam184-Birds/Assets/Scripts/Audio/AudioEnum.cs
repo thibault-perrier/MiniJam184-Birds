@@ -4,5 +4,6 @@ namespace Audio
     {
         ClickSound,
         BackSound,
+        WindSound,
     }
 }
