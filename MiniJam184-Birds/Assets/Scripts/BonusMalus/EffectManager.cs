@@ -1,8 +1,7 @@
 using System;
 using UnityEngine;
-using static UnityEngine.Rendering.DebugUI;
 
-[RequireComponent (typeof(TimerManager))]
+[RequireComponent(typeof(TimerManager))]
 public class EffectManager : MonoBehaviour
 {
     [Header("Component")]
@@ -49,6 +48,9 @@ public class EffectManager : MonoBehaviour
                 break;
             case EffectEnum.TimeAugmentation:
                 timerManager.AddTime(value);
+                break;
+
+            default:
                 break;
         }
     }
